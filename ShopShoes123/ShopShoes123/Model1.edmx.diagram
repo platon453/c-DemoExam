@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c7a121b5eb664d41a1818e289fab4732" Name="Diagram1">
+        <EntityTypeShape EntityType="PROBNIKModel.AddressPointOfIssues" Width="1.5" PointX="0.75" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PROBNIKModel.Categories" Width="1.5" PointX="0.75" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PROBNIKModel.Orders" Width="1.5" PointX="3" PointY="15" IsExpanded="true" />
+        <EntityTypeShape EntityType="PROBNIKModel.OrdersProducts" Width="1.5" PointX="5.25" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PROBNIKModel.OrderStatus" Width="1.5" PointX="0.75" PointY="15.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PROBNIKModel.Producers" Width="1.5" PointX="0.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PROBNIKModel.ProductNames" Width="1.5" PointX="0.75" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PROBNIKModel.Products" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="PROBNIKModel.Suppliers" Width="1.5" PointX="0.75" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PROBNIKModel.Users" Width="1.5" PointX="0.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PROBNIKModel.UsersRole" Width="1.5" PointX="1.5" PointY="21.125" IsExpanded="true" />
+        <AssociationConnector Association="PROBNIKModel.FK_Orders_AddressPointOfIssues" ManuallyRouted="false" />
+        <AssociationConnector Association="PROBNIKModel.FK_Products_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="PROBNIKModel.FK_Orders_OrderStatus" ManuallyRouted="false" />
+        <AssociationConnector Association="PROBNIKModel.FK_Orders_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="PROBNIKModel.FK_OrdersProducts_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="PROBNIKModel.FK_OrdersProducts_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="PROBNIKModel.FK_Products_Producers" ManuallyRouted="false" />
+        <AssociationConnector Association="PROBNIKModel.FK_Products_ProductNames" ManuallyRouted="false" />
+        <AssociationConnector Association="PROBNIKModel.FK_Products_Suppliers" ManuallyRouted="false" />
+        <AssociationConnector Association="PROBNIKModel.FK_Users_UsersRole" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
